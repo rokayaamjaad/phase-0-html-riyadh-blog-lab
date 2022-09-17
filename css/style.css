@@ -6,9 +6,9 @@ html, body {
 }
 
 body {
-  background: url(../images/backgrounds/architecture.jpg) center no-repeat;
+  background: url(../images/backgrounds/architecture.jpg) repeat;
   background-size: cover;
-  background-attachment: fixed;
+
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
 }
@@ -43,6 +43,7 @@ h3 {
   font-family: 'Gabriela', serif;
   font-size: 1.5em;
   margin-top: .5em;
+
 }
 
 img {
@@ -52,7 +53,8 @@ img {
 }
 
 p {
-  font-size: 1em;
+  font-size: 0.9em;
+  font-weight: bold;
 }
 
 a {
